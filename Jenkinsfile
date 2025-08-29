@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        DOCKER_HUB_REPO = 'recruit0173/microservices-ingress-kastro'
+        DOCKER_HUB_REPO = 'moninder/microservices-ingress-kastro'
         K8S_CLUSTER_NAME = 'kastro-cluster'
         AWS_REGION = 'us-east-1'
         NAMESPACE = 'default'
